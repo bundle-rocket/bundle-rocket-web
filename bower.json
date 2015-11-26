@@ -1,0 +1,30 @@
+{
+  "name": "bundle-rocket-web",
+  "description": "bundle-rocket web front-end project",
+  "main": "index.html",
+  "authors": [
+    "ludafa@outlook.com"
+  ],
+  "license": "BSD",
+  "keywords": [
+    "bundle",
+    "rocket",
+    "dashboard"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ei": "~1.2.3",
+    "melon": "#feature/stateless",
+    "numen": "~0.0.5",
+    "react": "~0.14.2",
+    "jshashes": "~1.0.5"
+  }
+}
