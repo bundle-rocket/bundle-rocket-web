@@ -4,14 +4,31 @@ global-reset();
 
 @require '../dep/melon/dist/css/theme/default'
 @require '../dep/melon/dist/css/Dialog.styl'
+@require '../dep/melon/dist/css/Card.styl'
 @require '../dep/melon/dist/css/Button.styl'
 @require '../dep/melon/dist/css/Mask.styl'
 @require '../dep/melon/dist/css/Link.styl'
 @require '../dep/melon/dist/css/TextBox.styl'
 @require '../dep/melon/dist/css/Validity.styl'
+@require '../dep/melon/dist/css/ToolBar.styl'
+@require '../dep/melon/dist/css/Icon.styl'
+@require '../dep/melon/dist/css/Title.styl'
 
 @require './login/*'
 
 html, body
     height: 100%
+    font-size: 16px
     font-family: "Helvetica Neue",Helvetica,"Hiragino Sans GB","STHeitiSC-Light","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+
+
+.ui-tool-bar
+    display: flex
+    justify-content: flex-start
+    align-items: center
+
+.flex
+    flex: 1
+    box-sizing: border-box
+
+@require './app/List.styl'
